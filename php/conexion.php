@@ -1,6 +1,6 @@
 <?php
 
-$servidor   ="192.168.100.143";
+$servidor   ="localhost";
 $usuario    ="medica";
 $contrasenha ="Base.Datos.#1";
 $BD         ="Medica";
