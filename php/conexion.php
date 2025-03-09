@@ -1,18 +1,18 @@
 <?php
 
-$servidor   ="localhost";
-$usuario    ="root";
-$contrasenha ="raspberry";
-$BD         ="ObreroBienestar";
+$servidor   ="192.168.100.143";
+$usuario    ="medica";
+$contrasenha ="Base.Datos.#1";
+$BD         ="Medica";
 
 $conexion = mysqli_connect($servidor, $usuario, $contrasenha, $BD);
 
 if(!$conexion)
 {
-    echo "Fallo la conexiòn <br>";
+    echo "Fallo la conexión <br>";
     die("Connection failed: ".mysqli_connect_error());
 }
 else{
-    //echo "Conexiòn Exitosa";
+    //echo "Conexión Exitosa";
 }
 ?>
